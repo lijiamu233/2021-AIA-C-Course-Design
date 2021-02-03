@@ -1,0 +1,4 @@
+#ifndef LIB_CREATE_PEOPLE
+#define LIB_CREATE_PEOPLE
+
+#endif
