@@ -21,12 +21,24 @@
     <ClCompile Include="lib\create_people.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lib\buildings.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\display.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\create_people.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="include\header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buildings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\display.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

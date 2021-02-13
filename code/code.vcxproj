@@ -139,10 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lib\display.c" />
+    <ClCompile Include="lib\buildings.c" />
     <ClCompile Include="lib\create_people.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\display.h" />
+    <ClInclude Include="include\buildings.h" />
     <ClInclude Include="include\create_people.h" />
     <ClInclude Include="include\header.h" />
   </ItemGroup>
