@@ -11,9 +11,12 @@ typedef struct people {
 	int actionStatus;	//0: can't act; 1: can act
 	int deleteStatus;	//0: exist; 1: delete
 	int outStatus;		//0: can't out; 1: can out
+	int id;             //The ID of each people unit
 }PEOPLE;
 
 PEOPLE* New();
 double CreateTemperature();
+void CreateString(char* p, int type);
+void CreateTrace(int* p);
 
 #endif

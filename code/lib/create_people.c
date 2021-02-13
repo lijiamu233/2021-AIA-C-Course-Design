@@ -15,6 +15,7 @@
 PEOPLE* New()
 {
 	PEOPLE* Character;
+	const char s[20] = "School of AIA";
 	Character = (PEOPLE*)malloc(sizeof(PEOPLE));
 	if (Character == NULL) return Character;
 	Character->actionStatus = 1;
@@ -23,6 +24,9 @@ PEOPLE* New()
 	Character->outStatus = 1;
 	Character->temperature = CreateTemperature();
 	CreateTrace(Character->trace);
+	CreateString(Character->name, 1);
+	CreateString(Character->stuNumber, 2);
+	strcpy(Character->school, s);
 	return Character;
 }
 
@@ -53,7 +57,7 @@ double CreateTemperature()
 		X = V2 * sqrt(-2 * log(S) / S);
 	}
 	phase = 1 - phase;
-	X = X * 0.09 + 36.5;
+	X = X * 0.3 + 36.5;
 	return X;
 }
 /*
@@ -77,4 +81,31 @@ void CreateTrace(int* p)
 			cnt++;
 		}
 	}
+}
+
+/*
+	void CreateString(char* p, int type)
+	args: p: a string pointer, the string will be create.
+		  type: 1 for name, 2 for stuNumber.
+	return: none
+	propose: create random string for people unit.
+*/
+void CreateString(char* p, int type)
+{
+	char s[25];
+	int i;
+	if (type == 1)
+	{
+		for (i = 0; i < 9; i++)
+			s[i] = rand() % 26 + 'a';
+		s[9] = '\0';
+	}
+	else
+	{
+		s[0] = 'U'; s[1] = '2'; s[2] = '0'; s[3] = '2'; s[4] = '0';
+		for (i = 5; i <= 9; i++)
+			s[i] = rand() % 10 + '0';
+		s[10] = '\0';
+	}
+	strcpy(p, s);
 }
