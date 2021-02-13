@@ -7,5 +7,7 @@
 #include <math.h>
 
 #include "create_people.h"
+#include "buildings.h"
+#include "display.h"
 
 #endif
