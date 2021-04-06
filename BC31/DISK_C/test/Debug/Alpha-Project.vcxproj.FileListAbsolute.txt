@@ -1,0 +1,3 @@
+C:\Users\11279\Desktop\code\2021-AIA-C-Course-Design\alpha\Alpha-Project\Debug\Alpha-Project.exe
+C:\Users\冀彦\Desktop\已完成部分\111\Debug\Alpha-Project.exe
+C:\Users\冀彦\Desktop\已完成部分\111\Debug\Alpha-Project.pdb

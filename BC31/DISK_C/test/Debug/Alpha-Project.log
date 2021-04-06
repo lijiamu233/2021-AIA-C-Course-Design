@@ -1,0 +1,22 @@
+﻿  building.cpp
+  admin.cpp
+  adminfunc.cpp
+  adminmenu.cpp
+  database.cpp
+  draw.cpp
+  forget.cpp
+  hzk.cpp
+  initmenu.cpp
+  keyboard.cpp
+  lgfunc.cpp
+C:\Users\冀彦\Desktop\已完成部分\111\lib\lgfunc.cpp(149,6): warning C4101: “i”: 未引用的局部变量
+C:\Users\冀彦\Desktop\已完成部分\111\lib\lgfunc.cpp(223,9): warning C4101: “j”: 未引用的局部变量
+C:\Users\冀彦\Desktop\已完成部分\111\lib\lgfunc.cpp(221,6): warning C4101: “str”: 未引用的局部变量
+C:\Users\冀彦\Desktop\已完成部分\111\lib\lgfunc.cpp(419,7): warning C4101: “n”: 未引用的局部变量
+  login.cpp
+  mouse.cpp
+  register.cpp
+C:\Users\冀彦\Desktop\已完成部分\111\lib\register.cpp(398,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  main.cpp
+  正在生成代码...
+  Alpha-Project.vcxproj -> C:\Users\冀彦\Desktop\已完成部分\111\Debug\Alpha-Project.exe
